@@ -11,4 +11,8 @@ export class AppService {
     return a + b;
   }
 
+  // tambahkan di dalam class AppService (app.service.ts)
+  multiply(a: number, b: number): number {
+    return a * b;
+  }
 }
